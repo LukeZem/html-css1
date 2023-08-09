@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 #site-title {
     font-size: 40px;
@@ -30,7 +30,8 @@ nav .btn{
 }
 
 .profile-pic {
-    width: 150px;
+    width: 250px;
+    height: 150px;
 }
 
 .about-me-paragraph {
@@ -38,12 +39,24 @@ nav .btn{
     width: calc(100% - 250px);
 }
 
-section {
+/* section {
     font-size: 20px;
-}
+    display: inline-blocks;
+} */
 
-#section1 p {
+#section1 {
+    font-size: 20px;
+    display: inline-block;
     margin-top: -10px;
     position: relative;
     padding-left: 5px;
+}
+
+#section1 div {
+    display: inline-block;
+    width: 400px;
+}
+p {
+    display: inline-block;
+    width: 400px;
 }
